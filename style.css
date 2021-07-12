@@ -96,7 +96,7 @@ body {
   visibility: visible;
 }
 
-.form button {
+.button {
   cursor: pointer;
   color: var(--white-color);
   background-color: var(--button-color);
@@ -132,18 +132,23 @@ body {
   transform: scale(1.01);
 }
 
-.form button:hover {
+.button:hover {
   background-color: var(--button-color-dark);
   box-shadow: 6px 6px 3px #cbced1, -2px -2px 3px #ffffff;
   transform: scale(1.01);
 }
 
 .opcao {
-  
   list-style-type: none;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.opcao ul {
+  margin-top: 20px;
 }
 
 .opcao li {
   display: inline;
-  padding-top: 10px;
+  margin: 20px;
 }
